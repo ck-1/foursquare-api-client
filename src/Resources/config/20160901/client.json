@@ -24,6 +24,11 @@
                     "description": "App client secret",
                     "required": true
                 } ,
+                "oauth_token": {
+                    "location": "query",
+                    "description": "Token",
+                    "required": false
+                },
                 "m": {
                     "location": "query",
                     "description": "Mode",
